@@ -6,7 +6,6 @@ interface ICreateCategoryDTO {
   description: string;
 }
 
-
 class CategoriesRepository {
   private categories: Category[];
 
